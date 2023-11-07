@@ -123,7 +123,7 @@ uint32_t * FPGAInterface::GetOscilloscopeChannelA() {
 
 uint32_t * FPGAInterface::GetOscilloscopeChannelB() {
   if(oinit) {
-    return ochA;
+    return ochB;
   }
   else {
     return NULL;
